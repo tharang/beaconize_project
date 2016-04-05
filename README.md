@@ -8,6 +8,7 @@ As of now, the code is supposed to monitor and range all the available beacons(t
 The issue I am working on is, the data binding.
 
 This project involves the following
+
 1. Ionic framework and its CLI commands
 2. Javascript/HTML/CSS
 3. Firebase<yet to to be added, for cloud syncing>
@@ -17,24 +18,18 @@ I use atom editor for code browsing/editing.
 The ionic commands for developing/debugging are detailed @ http://ionicframework.com/docs/cli/
 For quick ionic usage:
 1. to start a project: 
-    ionic start <app-name> <template>
+    ionic start (app-name) (template)
 
-2.ionic add platform ios
-  ionic add platform android
+2.Add a platform (ios or Android): ionic platform add ios [android]
 
 3. to live debug:(VERY USEFUL)
   ionic serve --lab
   
-4. build the code:
-  ionic build ios
-  ionic build android
+4. Build your app: ionic build <PLATFORM>
 
-5. setup AVD in your android tools
-  ionic emulate ios
-  ionic emulate android
+5. Setup AVD in your android tools. 
+Simulate your app: ionic emulate <PLATFORM>
 
-6. run the tested app in your device
-  ionic run ios
-  ionic run android
+6. Run your app on a device: ionic run <PLATFORM>
 
   
