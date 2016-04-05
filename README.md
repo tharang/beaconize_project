@@ -16,12 +16,13 @@ This project involves the following
 I use atom editor for code browsing/editing.
 The ionic commands for developing/debugging are detailed @ http://ionicframework.com/docs/cli/
 For quick ionic usage:
-1. to start a project: $ ionic start <app-name> <template>
+1. to start a project: 
+    ionic start <app-name> <template>
 
 2.ionic add platform ios
   ionic add platform android
 
-3. to live debug:
+3. to live debug:(VERY USEFUL)
   ionic serve --lab
   
 4. build the code:
